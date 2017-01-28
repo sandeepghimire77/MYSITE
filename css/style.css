@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'raleway',sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p {
+    font-size: 14px;
+}
+
+
