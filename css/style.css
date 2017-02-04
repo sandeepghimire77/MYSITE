@@ -12,6 +12,7 @@ body {
 p {
     font-size: 14px;
 }
+/*------------------------ headers *--------------------------------------*/
 header .brand a {
     display:block;
     font-family: "Pacifico";
@@ -19,9 +20,9 @@ header .brand a {
     /* font-family: 'Tangerine', serif; */
 
     font-size:1em;
-    color: #564dff;
-    margin-bottom:20px;
-    padding-bottom: 50px;
+    color: #ffffff;
+    margin-bottom:10px;
+    padding-bottom: 100px;
    /* text-align: center;*/
 
 }
@@ -37,7 +38,7 @@ header .brand a {
     padding-bottom: 20px;
 }*/
 .header-text h1 {
-    color: #fff;
+    color: #e8e8e8;
     font-size: 35px;
     font-weight: 300;
     line-height: 45px;
@@ -45,19 +46,19 @@ header .brand a {
     text-transform: uppercase;
 }
 .header-text p {
-    color: #fff;
-    font-size: 17px;
+    color: #ffffff;
+    font-size: 16px;
     line-height: 28px;
-    font-weight: 300;
+    font-weight: 500;
 }
-/* my own */
+/*
 .row p {
     color: white;
     font-size: 20px;
     margin-bottom: 50px;
-}
+}*/
 .header {
-    background-image: url("../images/bc1.jpg");
+   /* background-image: url("../images/bc1.jpg"); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -67,11 +68,94 @@ header .brand a {
     -webkit-background-size: cover;
 }
 .header-overlay {
-    background-color: rgba(31,31,31,0.75);/* 0.75 is for transperancy*/
+    background-color: rgba(31,31,31,0.45);/* 0.75 is for transperancy*/
 }
 
-.header-iphone img {
+.header-my img {
     width: 100%;
+    border: solid 8px #ffffff;
 
 }
 
+.header-btns {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited
+{
+
+    background: transparent;
+    border-color: #1f9fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+
+
+}
+.btn-download:hover {
+    background-color: #129CF3;
+    color: #ffffff;
+}
+
+
+.banner {
+    background: url(../images/s2.jpg) no-repeat 0px 0;
+    background-size: cover;
+    padding: 1em 0 5em;
+}
+/*  About Us page */
+
+.img-responsive {
+    border: 5px solid #1dadd3;
+}
+
+.choose-us-wraper {
+
+    padding-top: 50px;
+}
+
+.modal-content {
+    background: url(../images/bg.png) #000 repeat;
+}
+/* about section details */
+.about h3 {
+    font-size: 2.2em;
+}
+.about h3 span {
+    color: #333df3;
+}
+.about h4 {
+    font-size: 1.2em;
+    color: #a5a5a5;
+    margin-top: 1em;
+}
+ul.address {
+    margin-top: 1.5em;
+    border-top: 3px dashed #1f9fff;
+    padding-top: 0.5em;
+}
+ul.address li {
+    display: block;
+}
+ul.address li ul.agileits-address-text li:nth-child(1) {
+    width: 20%;
+}
+ul.address li ul.agileits-address-text li {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #000000;
+    margin-top: 1em;
+    font-weight: 100;
+}
