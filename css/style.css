@@ -12,6 +12,59 @@ body {
 p {
     font-size: 14px;
 }
+
+/* ---- navbar jpt ---*/
+
+
+.navbar-default {
+    background-color: transparent;
+    border-color: #444;
+    z-index: 110;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #B5B5B5;
+    font-family: "Raleway", sans-serif;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #129CF3;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #B5B5B5;
+}
+.navbar-brand {
+    padding: 9px 15px;
+}
+.navbar-brand img  {
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > .active>a,
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus {
+    background-color: transparent;
+    color: #129CF3;
+}
+
+
+
+
+
+
+
+
+
+
 /*------------------------ headers *--------------------------------------*/
 header .brand a {
     display:block;
@@ -58,8 +111,9 @@ header .brand a {
     font-size: 20px;
     margin-bottom: 50px;
 }*/
+/* this makes image not move */
 .header {
-   /* background-image: url("../images/bc1.jpg"); */
+    background-image: url("../images/s2.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -67,7 +121,9 @@ header .brand a {
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
+
 }
+
 .header-overlay {
     background-color: rgba(31,31,31,0.45);/* 0.75 is for transperancy*/
 }
@@ -111,11 +167,11 @@ header .brand a {
 }
 
 
-.banner {
+/*.banner {
     background: url(../images/s2.jpg) no-repeat 0px 0;
     background-size: cover;
     padding: 1em 0 5em;
-}
+}*/
 /* ---- generic css ---*/
 .section-title {
     padding-top: 80px;
@@ -139,6 +195,21 @@ header .brand a {
     text-align: center;
     margin-top: 45px;
 }
+
+
+/* ------ pseudo code use -----*/
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129CF3;
+    margin-left: -30px;
+}
+
+
 /*  About Us page */
 
 .img-responsive {
@@ -151,7 +222,8 @@ header .brand a {
 }
 
 .modal-content {
-    background: url(../images/bg.png) #000 repeat;
+    /*background: url(../images/bg.png) #000 repeat;*/
+    color: #000000;
 }
 /* about section details */
 .about h3 {
@@ -182,4 +254,81 @@ ul.address li ul.agileits-address-text li {
     color: #000000;
     margin-top: 1em;
     font-weight: 100;
+}
+/* my skill part */
+.modal-header h4 {
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+
+}
+.modal-header h4:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129CF3;
+    margin-left: -30px;
+}
+
+
+/* testimonial part css */
+.testimonial {
+    background-image: url("../images/testimonial-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+
+}
+.testimonial-overlay {
+    background-color: rgba(31, 31, 31, .75);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.carousel-indicators {
+    bottom: -10px;
+}
+.carousel-inner .item img {
+    border: 2px solid #129CF3;
+    border-radius: 50%;
+    padding: 3px;
+}
+.testimonial-caption {
+    padding-bottom: 70px;
+}
+.testimonial-caption h2 {
+    color: #129CF3;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+
+}
+.testimonial-caption h4 {
+    color: #129CF3;
+}
+
+.testimonial-caption h4 span {
+
+    color: #D8D8D8;
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+.testimonial-caption p {
+    color: #D8D8D8;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 50px;
 }
