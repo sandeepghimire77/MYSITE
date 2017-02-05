@@ -44,6 +44,7 @@ header .brand a {
     line-height: 45px;
     padding-top: 30px;
     text-transform: uppercase;
+
 }
 .header-text p {
     color: #ffffff;
@@ -115,6 +116,29 @@ header .brand a {
     background-size: cover;
     padding: 1em 0 5em;
 }
+/* ---- generic css ---*/
+.section-title {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.section-title h2 {
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+
+}
+.section-title p {
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+}
 /*  About Us page */
 
 .img-responsive {
@@ -123,7 +147,7 @@ header .brand a {
 
 .choose-us-wraper {
 
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .modal-content {
