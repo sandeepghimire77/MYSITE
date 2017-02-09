@@ -281,7 +281,7 @@ ul.address li ul.agileits-address-text li {
 /* testimonial part css */
 .testimonial {
     background-image: url("../images/testimonial-bg.jpg");
-    background-attachment: fixed;
+    background-attachment: fixed;  /* yesko kaam le garda background fix vako hooo..cool feature */
     background-repeat: no-repeat;
     background-size: cover;
     -moz-background-size: cover;
@@ -300,7 +300,7 @@ ul.address li ul.agileits-address-text li {
 }
 .carousel-inner .item img {
     border: 2px solid #129CF3;
-    border-radius: 50%;
+    border-radius: 50%; /*  yesle garda image golo vako ho */
     padding: 3px;
 }
 .testimonial-caption {
@@ -332,3 +332,6 @@ ul.address li ul.agileits-address-text li {
     line-height: 27px;
     padding-top: 50px;
 }
+
+
+
