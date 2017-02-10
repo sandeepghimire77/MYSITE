@@ -65,12 +65,12 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right" >
-                        <li><a href="#HOME" class="nav-item">HOME</a></li>
-                        <li><a href="#ABOUT ME " class="nav-item">ABOUT</a></li>
-                        <li><a href="#SKILLS" class="nav-item">FEATURES</a></li>
-                        <li><a href="#TESTIMONIALS" class="nav-item">SCREENS</a></li>
-                        <li><a href="#MY PROJECTS" class="nav-item">DOWNLOAD</a></li>
-                        <li><a href="#MY EDUCATION" class="nav-item">CONTACT</a></li>
+                        <li><a href="#home" class="nav-item">HOME</a></li>
+                        <li><a href="#ABOUT" class="nav-item">ABOUT ME</a></li>
+                        <li><a href="#SKILLS" class="nav-item">SKILLS</a></li>
+                        <li><a href="#TESTIMONIAL" class="nav-item">TESTIMONIALS</a></li>
+                        <li><a href="#SCREENS" class="nav-item">MY PROJECTS</a></li>
+                        <li><a href="#MY EDUCATION" class="nav-item">MY EDUCATION</a></li>
                         <li><a href="#CONTACT" class="nav-item">CONTACT</a></li>
                     </ul>
 
@@ -144,8 +144,9 @@
     </header>
   </div>
 <!-- section area -->
-  <section>
-      <div class="container">
+  <section id="ABOUT">
+
+      <div class="container" >
 
           <div class="row">
 
@@ -227,9 +228,42 @@
                               </ul>
                           </li>
                       </ul>
+                          <!-- code add here -->
+                          <div class="w3-button-info m_nav_item">
+                              <a class="hvr-sweep-to-bottom" href="#CONTACT">Contact Me</a>
+                          </div>
+
+                          <div class="container">
+                              <div class="row">
+
+                                  <div class="col-md-12 wow bounceInLeft"> &nbsp;&nbsp;
+
+                                      <div class="social-iconsss">
+
+                                          <ul>
+
+                                              <li><a href="https://www.facebook.com/sandeep.ghimire.96"><i class="fa fa-facebook"></i></a></li>
+                                              <li><a href="https://www.linkedin.com/in/sandeep-ghimire-40932b120?"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                              <li><a href="https://github.com/sandeepghimire77"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+
+                                          </ul>
+
+
+                                      </div>
+
+
+                                  </div>
+
+                              </div>
+
+                          </div>
+
                       </div>
+                      <!-- code adds here -->
+
 
                   </div>
+
                   <div class="col-md-6">
 
                       <!-- About iphone -->
@@ -238,6 +272,7 @@
                           <img class="img-responsive" src="images/me2.jpg" alt="iphone">
 
                       </div> -->
+                      <section class="skill" id="SKILLS">
 
                                   <div class="modal-header">
 
@@ -296,6 +331,7 @@
                                           <div class="clearfix"> </div>
                                       </div>
                                   </div>
+                          </section>
 
 
 
@@ -305,13 +341,13 @@
           </div>
       </div>
       </div>
-  </section>
+    </section>
     <div class="clearfix"> </div>
 
 
 
 
-    <section class="testimonial">
+    <section class="testimonial" id="TESTIMONIAL">
 
         <div class="testimonial-overlay">
 
@@ -359,7 +395,7 @@
                                 <div class="item text-center">
 
 
-                                    <img src="images/suraj.jpg" alt="testimonial" class="center-block" style="width: 128px">
+                                    <img src="images/suraj.jpg"  alt="testimonial" class="center-block" style="width: 128px">
 
                                     <div class="testimonial-caption">
 
@@ -542,6 +578,105 @@
 
     </section>
 
+    <!-- contact us form -->
+    <section class="contact-us" id="CONTACT">
+
+        <div class="container wow bounceIn">
+
+            <div class="row">
+
+                <div class="col-md-10 col-md-offset-1">
+
+                    <div class="section-title">
+
+                        <h2>Contact Me</h2>
+
+
+                        <p style="text-decoration-style: dotted">To get in Touch you can message me here .</p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="contact-us-form wow bounceIn">
+
+
+            <div class="container">
+
+                <form role="form">
+
+                    <div class="row">
+
+                        <div class="col-md-4">
+
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+
+                        </div>
+
+                        <div class="col-md-8">
+
+                            <textarea class="form-control" id="message" rows="25" cols="10" placeholder="Message Text...."></textarea>
+
+                            <button type="button" class="btn btn-default submit-btn form_submit">SEND</button>
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+     </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <div id="copyright">
+                        <p>Copyright &copy; 2017  <a href="#"> - Sandeep</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <div class="scroll-top">
+                        <a href="#HOME" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
 
 
 
@@ -563,7 +698,7 @@
 
     <!-- Custom Js -->
     <script src="js/custom.js"></script>
-        
+
     </body>
 
 
