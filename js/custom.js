@@ -1,4 +1,4 @@
-/* Show and hide menu */
+/* Show and hide the menu */
 
 $(document).ready(function(){
    
@@ -7,6 +7,9 @@ $(document).ready(function(){
     $(window).scroll(function() {
         
         'use strict';
+        /* this is done so that if window scroll is below 80 , the navbar is invisible ...else it is visible if user scrools down if its more than
+        80 */
+
         
         if($(window).scrollTop() < 80 ) {
             
@@ -16,7 +19,7 @@ $(document).ready(function(){
                 
             });
             
-            $('.navbar-default').css({
+            $('.navbar-inverse').css({
                 'background-color': 'rgba(59, 59 , 59, 0)'
                 
             });
@@ -29,20 +32,21 @@ $(document).ready(function(){
                 
             });
             
-            $('.navbar-default').css({
+            $('.navbar-inverse').css({
                 'background-color': 'rgba(59, 59 , 59, 0.7)',
                 'border-color': '#444'
                 
             });
             
             $('.navbar-brand img').css({
-               'height': '35px',
+               'height': '33px',
                 'padding-top': '0px'
                 
             });
             
             $('.navbar-nav > li > a ').css({
                 'padding-top': '15px'
+
                 
                 
             });
@@ -56,10 +60,11 @@ $(document).ready(function(){
     
 });
 
-//add smooth scrolling
+//for add smooth scrolling
 $(document).ready(function() {
     
     'use strict';
+    /* we add smooth scrooling to the nav-item  list */
    
     
     $('.nav-item, #scroll-to-top').click(function() {
@@ -82,6 +87,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     
     'use strict';
+    /* we need to access navbar-nav li a   and using click fn we do the code */
     
     
     $('.navbar-nav li a').click(function(){
@@ -103,6 +109,7 @@ $(document).ready(function() {
     $(window).scroll( function() {
         
         'use strict';
+        /* applying each funtion on the section part */
         
         $("section").each(function()  {
             
